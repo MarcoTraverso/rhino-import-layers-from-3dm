@@ -16,6 +16,12 @@ A Rhino 8 C# script that lets you pick a `.3dm` file and import **only the layer
 - Optional scaling when the file's units differ from the current model.
 - The whole import is a single undo step.
 
+## Development note
+
+This script was written with the help of an AI assistant (Claude, by Anthropic). I defined the requirements, ran and tested it in Rhino 8 on Windows 11, and iterated on the interface and behavior.
+
+Use it at your own risk. Bug reports and suggestions are welcome through GitHub Issues.
+
 ## Requirements
 
 - **Rhino 8** (uses the built-in C# Script Editor).
@@ -43,7 +49,7 @@ Or type `RunScript` and browse to the file.
 3. Set the command macro to:
 
    ```
-   ! _-RunScript "C:\RhinoScripts\ImportLayersFrom3dm.cs"
+   ! _-ScriptEditor _R "C:\RhinoScripts\ImportLayersFrom3dm.cs"
    ```
 
 4. Type `ImportLayers` in the command line to run it.
@@ -55,7 +61,7 @@ Or type `RunScript` and browse to the file.
 3. Set the left-click command to the same macro:
 
    ```
-   ! _-RunScript "C:\RhinoScripts\ImportLayersFrom3dm.cs"
+   ! _-ScriptEditor _R "C:\RhinoScripts\ImportLayersFrom3dm.cs"
    ```
 
 4. Optional: use `icon.svg` from this repo as the button image. If your build doesn't accept SVG, export a 24x24 or 32x32 PNG from it.
@@ -79,15 +85,6 @@ Or type `RunScript` and browse to the file.
 - A ticked parent layer imports only its own objects; tick the sublayers too to import their objects.
 - Always try it on a copy of your model first.
 
-## Development note
-
-This script was written with the help of an AI assistant (Claude, by Anthropic). I defined the requirements, ran and tested it in Rhino 8 on Windows 11, and iterated on the interface and behaviour.
-
-What I have tested: [EDIT THIS: list what you really tried, e.g. plain layers, sublayers, blocks, unit scaling, a large file].
-What I have not tested: [EDIT THIS: e.g. Mac, very large files, unusual objects such as hatches or annotations].
-
-Use it at your own risk. Bug reports and suggestions are welcome through GitHub Issues.
-
 ## License
 
-[MIT](LICENSE) © [YOUR NAME] [YEAR]
+[MIT](LICENSE) © [Marco Traverso] [2026]
