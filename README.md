@@ -27,8 +27,8 @@ Use it at your own risk. Bug reports and suggestions are welcome through GitHub 
 
 ## Installation
 
-1. Download `ImportLayersFrom3dm.cs` (from the [Releases](../../releases) page or the file list above).
-2. Save it in a stable folder, for example `C:\RhinoScripts\`. Use a folder that won't move, because the button or alias points to this path.
+1. Download `ImportLayersFrom3dm.cs` (from the file list above), or download the zip from the Releases page and extract it.
+2. Save ImportLayersFrom3dm.cs in a stable folder, for example `C:\RhinoScripts\`. Use a folder that won't move, because the button or alias points to this path.
 
 ## Usage
 
