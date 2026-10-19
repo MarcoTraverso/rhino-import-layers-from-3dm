@@ -1,6 +1,3 @@
-# rhino-import-layers-from-3dm
-A Rhino 8 C# script that lets you import objects from a .3dm file, choosing which layers to include.
-
 # Import Layers From 3dm
 
 This Rhino 8 C# script lets you pick a `.3dm` file and import **only the layers you choose**, without importing everything and deleting the unwanted objects afterwards.
