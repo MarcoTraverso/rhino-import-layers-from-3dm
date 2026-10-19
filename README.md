@@ -4,7 +4,7 @@ A Rhino 8 C# script that lets you bring in objects from a .3dm file, choosing wh
 
 A Rhino 8 C# script that lets you pick a `.3dm` file and import **only the layers you choose**, without importing everything and deleting the unwanted objects afterwards.
 
-![Layer picker dialog](screenshot.png)
+![Layer picker dialog](Screenshot.jpg)
 
 ## Features
 
